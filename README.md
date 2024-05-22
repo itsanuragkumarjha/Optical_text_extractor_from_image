@@ -23,4 +23,43 @@ The EasyOCR Streamlit App allows users to upload images in PNG, JPG, or JPEG for
 ## 📽️ App Demo
 ![Demo](ocrdemo.gif)
 
+## 🧠 How It Works
+- **Input Image**: The process begins with an input image containing text.
+- **Pre-processing**: The input image undergoes pre-processing steps, such as resizing, normalization, or noise reduction.
+- **Text Detection**: EasyOCR identifies regions within the pre-processed image that potentially contain text.
+- **Text Recognition**: EasyOCR performs optical character recognition (OCR) on the detected text regions to extract the textual content.
+- **Post-processing**: The recognized text may undergo post-processing steps to enhance accuracy and readability.
+- **Output Text**: The final output of the EasyOCR process is the extracted text from the input image.
 
+## 🛠️ Installation
+- Follow these steps to run the project locally:
+### Clone the repository:
+```bash
+git clone https://github.com/yourusername/easyocr-streamlit-app.git
+cd easyocr-streamlit-app
+```
+### Install the required packages:
+```bash
+pip install -r requirements.txt
+```
+### Run the Streamlit app:
+```bash
+streamlit run app.py
+```
+
+## 📖 Usage
+- **Upload your image**: Use the file uploader to select your image.
+- **Processing**: Wait for the AI to process and extract text from the image.
+- **View Results**: The extracted text will be displayed on the screen, ready for you to copy or use as needed.
+
+## 🗂️ Code Overview
+- **app.py**: Contains the main application code for the Streamlit app.
+- **requirements.txt**: Lists all dependencies required to run the project.
+- **README.md**: Provides documentation and information about the project.
+
+## 🤝 Contributing
+I welcome contributions! If you have any ideas, suggestions, or find bugs, please open an issue or submit a pull request. Also please go ahead & fork if you like the repo!
+
+## 🙏 Acknowledgments
+❤️ Built with love by @itsANURAG
+🌐 Hosted on Hugging Face Spaces 🤗
